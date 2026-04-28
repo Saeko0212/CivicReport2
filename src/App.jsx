@@ -1,12 +1,10 @@
-import { useState } from "react";
-import "./App.css"
+import React from 'react';
+import AppRouter from './router/AppRouter';
 
-const app = () => {
+function App() {
   return (
-    <>
-    <h1>categoria principal</h1>
-    </>
+    <AppRouter />
   );
 }
 
-export default app;
+export default App;
